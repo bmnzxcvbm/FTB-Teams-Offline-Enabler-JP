@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.clefal.ftb_teams_offline_enabler.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ftb_teams_offline_enabler.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinClientTeamManagerImpl"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
